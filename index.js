@@ -1,4 +1,4 @@
-/* let word = 'las palabras';
+let word = 'las palabras';
 
 find_word_and_upper = (value) => {
   let find_word = value[0];
@@ -7,7 +7,7 @@ find_word_and_upper = (value) => {
   console.log(replace);
 }
 
-find_word_and_upper(word); */
+find_word_and_upper(word);
 
 
 let arrays_words = ['sandia', 'limones', 'cebollas'];
