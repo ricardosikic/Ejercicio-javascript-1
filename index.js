@@ -1,4 +1,4 @@
-let word = 'las palabras';
+/* let word = 'las palabras';
 
 find_word_and_upper = (value) => {
   let find_word = value[0];
@@ -7,6 +7,26 @@ find_word_and_upper = (value) => {
   console.log(replace);
 }
 
-find_word_and_upper(word);
+find_word_and_upper(word); */
 
 
+let arrays_words = ['sandia', 'limones', 'cebollas'];
+
+
+array_map = (arr) => {
+  // Recorro el array y almaceno cada elemento en value
+  arr.map((value, i) => {
+    // Re ese valor le extraigo la posicion 0
+    let word = value[0];
+    transform_upper(word, value);
+  })
+}
+
+
+transform_upper = (data, array) => {
+  let to_upper = data.toUpperCase();
+  let replace = array.replace(data, to_upper);
+  console.log(replace);
+}
+
+array_map(arrays_words);
